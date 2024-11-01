@@ -1,0 +1,209 @@
+header{
+    background-color: chocolate;
+    height: 626px;
+    width: cover;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=0f2e2016989f7caf50b67342f9e3ca5466e54bce-6484252-images-thumbs&n=13);
+    background-size: 140px;
+    background-repeat: yes-repeat;
+    background-position: left;
+}
+
+h1{
+    text-align: center;
+    color:rgb(0, 255, 170);
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: rgb(58, 58, 58) 2px 3px 5px;
+}
+
+h6{
+    text-align: left;
+    color:brown;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgb(61, 61, 61) 2px 3px 5px;
+}
+
+main{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    background-color: cornsilk;
+    height: 100%;
+    display: flex;
+
+}
+
+.Wild-Pines{
+    width: 1500px;
+    height: 860px;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(https://i.pinimg.com/originals/34/08/bd/3408bdca50b11e45129285dec3eefe96.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Hleb{
+    width: 200px;
+    height: 150px;
+    background-image: url(https://avatars.mds.yandex.net/get-mpic/7052428/img_id1658168740150515128.jpeg/orig);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 420px;
+    margin-top: 520px;
+    float:left;
+    border-radius: 24px;
+    border: 2px solid purple;
+    text-align: left;
+    box-shadow: 0px 0px 5px black; 
+    cursor: pointer;
+}
+
+.Hleb:hover{
+    background-color: blueviolet;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px rgb(44, 44, 44); 
+    color: brown;
+}
+
+.Hleb:active{
+    background-image: url(https://avatars.mds.yandex.net/i?id=2f8fcce6bb25ef8379cdea7b35307d366122bc4c-4598969-images-thumbs&n=13);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px black; 
+    font-size: 0px;
+}
+
+.Macha{
+    width: 300px;
+    height: 300px;
+    margin: 420px;
+    margin-top: -300px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=f3191e6c4f611365208d5f4722fa3a2068308ee3-10448622-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    float:right;
+    border-radius: 24px;
+    border: 2px solid purple;
+    text-align: right;
+    box-shadow: 0px 0px 5px black; 
+    cursor: pointer;
+}
+
+.Macha:active{
+    background-image: url(https://avatars.mds.yandex.net/i?id=269de2ef4313b2db54f2b37a4ca7ef43117fa162-4080502-images-thumbs&n=13);
+    margin-bottom: 400px;
+    padding-left: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px black; 
+    font-size: 0px;
+}
+
+.Macha:hover{
+    background-color: blueviolet;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px rgb(44, 44, 44); 
+    color: brown;
+}
+
+.Text{
+    width: 500px;
+    height: 500px;    
+    float:inline-start;
+    font-size: 65px;
+    color:aquamarine;
+    text-shadow: rgb(0, 0, 0) 2px 3px 5px;    
+}
+
+.Sodi{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.Sodikken{
+    width: 500px;
+    height: 500px;
+
+}
+
+.ico{
+    width: 30%;
+    height: 100%;
+    float:left;
+    justify-content: center;
+    display:flex;
+    padding: 20px;
+
+}
+
+.navy ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-size: 50px;
+    width: 100%;
+    border: 2px solid wheat;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.navy a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    float: left ;
+}
+
+.navy{
+    position: sticky;
+    top: 0;
+}
+
+.navy a:hover{
+    background-color:burlywood;
+    color: black;
+}
+
+.eco{
+    width:70%;
+    float: left
+}
+
+form{
+    width: 100%;
+    float: right;
+    display: flex;
+}
+
+.search{
+    width: 75%;
+}
+
+.button{
+    width: 25%;
+    
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
